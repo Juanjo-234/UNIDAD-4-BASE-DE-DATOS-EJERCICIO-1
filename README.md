@@ -68,7 +68,8 @@ num_legajo: Número de legajo del operador o administrativo a cargo.
 3. Restricciones y Claves
 Claves Primarias (PRIMARY KEY): Se configuran para garantizar la unicidad de los registros en cada una de las tablas (ej. autor_pkey, libro_pkey, usuario_pkey, etc.).
 
-<img width="1145" height="363" alt="Captura de pantalla 2026-11-25 104124" src="https://github.com/user-attachments/assets/1894cf71-2a80-4551-bb85-86a7f2ff9125" />
-
 
 Claves Foráneas (FOREIGN KEY): Se establecen las restricciones de integridad referencial para conectar lógicamente las tablas entre sí (por ejemplo, vinculando los ejemplares con sus respectivos libros, los préstamos con sus usuarios, y los detalles de préstamo con los préstamos y ejemplares correspondientes).
+
+IMAGEN DE EJEMPLO DE UNA CONSULTA:
+<img width="1145" height="363" alt="Captura de pantalla 2026-11-25 104124" src="https://github.com/user-attachments/assets/1894cf71-2a80-4551-bb85-86a7f2ff9125" />
